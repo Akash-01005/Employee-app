@@ -59,12 +59,13 @@ class EmployeeUI{
 }
 
 const button = document.querySelector('#add_employee');
-button.addEventListener('click', e =>{
+button.addEventListener('click', () =>{
     const name = document.getElementById('name').value;
     const salary = document.getElementById('salary').value;
     const tax = document.getElementById('tax').value;
 
     if(name ==='' || salary === '' || tax === ''){
+        const employeeUI = new EmployeeUI();
         employeeUI.alertMessage('danger','Please Fill the Form!');
     }
     else{
