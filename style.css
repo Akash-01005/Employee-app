@@ -1,0 +1,22 @@
+/* body{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+form,h1, .alert{
+    margin-left: 25%;
+}
+
+.alert{
+    width: 50%;
+}
